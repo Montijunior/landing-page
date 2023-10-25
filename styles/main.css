@@ -1,0 +1,97 @@
+/* page reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    height: 55px;
+    background-color: #1f2937;
+    color: #fff;
+    font-family: monospace;
+}
+/* style the width restriction container */
+.page_width_container {
+    width: 1100px;
+    margin: 0 auto;
+}
+.navbar .page_width_container {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.logo {
+    font-size: 25px;
+    color: #f9f8fa;
+    cursor: pointer;
+}
+.nav_links {
+    
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+li {
+    list-style: none;
+}
+.nav_links li a {
+    text-decoration: none;
+    color:#e5e7eb;
+    font-size: 20px;
+}
+.nav_links li a:hover {
+    color: greenyellow;
+
+}
+/* hero section styles */
+header {
+    background-color: #1f2937;
+    height: 400px;
+}
+header .page_width_container {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+}
+.hero-header {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9f8fa;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+.hero-para {
+    font-size: 18px;
+    color: #E5E7EB;
+    line-height: 1.1;
+    margin-bottom: 10px;
+}
+.hero-button {
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: #fff;
+    font-family: monospace;
+}
+button:hover {
+    color: white;
+    background-color:darkblue;
+}
+img {
+    width: 400px;
+    height: 230px;
+    border-radius: 10px;
+}
