@@ -100,6 +100,10 @@ img {
     font-family: monospace;
 }
 /* Information section about fruits */
+.information .page_width_container {
+    width: 1100px;
+    margin: 0 auto;
+}
 .information {
     background:#fff;
     text-align: center;
@@ -114,7 +118,8 @@ img {
     margin-bottom: 100px;
 }
 .card {
-    border: 3px solid #3882f6;
+    
+    
     padding: 8px;
     display: flex;
     justify-content: center;
@@ -129,6 +134,7 @@ img {
     width: 180px;
     height: 130px;
     border-radius: 10px;
+    border: 3px solid #3882f6;
 }
 .information h2 {
     font-size: 36px;
@@ -137,9 +143,50 @@ img {
     font-family: monospace;
     margin: 25px 0;
 }
+.hil {
+    color: brown;
+}
 .card-info {
     font-size: 16px;
     font-weight: 600;
     text-align: center;
+    line-height: 1.2;
     
 }
+/* Quote section */
+.quote .page_width_container {
+    display: flex;
+    height: 385px;
+    width: 1100px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+.quote {
+    background-color: #e5e7eb;
+
+}
+.quote-content {
+    
+    width: 800px;
+    
+    display: flex;
+    align-items: start;
+    flex-direction: column nowrap;
+    gap: 15px;
+    padding: 25px;
+}
+.quote-para {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+.br {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+    
+
