@@ -95,3 +95,8 @@ img {
     height: 230px;
     border-radius: 10px;
 }
+.hero-span {
+    color: brown;
+    font-family: monospace;
+}
+/* Information section about fruits */
